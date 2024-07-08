@@ -61,7 +61,7 @@ def factorial(n):
 
 def factorial_generator(n):
     for i in range(n +1):
-        yield factorial (i)
+        yield factorial(i)
 
 for fact in factorial_generator(5):
     pass      
